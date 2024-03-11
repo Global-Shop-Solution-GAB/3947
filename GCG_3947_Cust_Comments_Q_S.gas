@@ -1,0 +1,468 @@
+Program.Sub.ScreenSU.Start
+Gui.SS_Form1..Create
+Gui.SS_Form1..Caption("Extra Comments")
+Gui.SS_Form1..Size(10050,4155)
+Gui.SS_Form1..Position(0,0)
+Gui.SS_Form1..AlwaysOnTop(False)
+Gui.SS_Form1..FontName("Arial")
+Gui.SS_Form1..FontSize(8)
+Gui.SS_Form1..ForeColor(0)
+Gui.SS_Form1..Backcolor(-2147483633)
+Gui.SS_Form1..ControlBox(True)
+Gui.SS_Form1..MaxButton(False)
+Gui.SS_Form1..MinButton(False)
+Gui.SS_Form1..MousePointer(0)
+Gui.SS_Form1..Moveable(True)
+Gui.SS_Form1..Sizeable(False)
+Gui.SS_Form1..ShowInTaskBar(True)
+Gui.SS_Form1..TitleBar(True)
+Gui.SS_Form1..Event(drop,SS_Form1_Drop)
+Gui.SS_Form1..Event(unload,SS_Form1_Unload)
+Gui.SS_Form1.lbl_txt1.Create(label)
+Gui.SS_Form1.lbl_txt1.Caption("Comment 1")
+Gui.SS_Form1.lbl_txt1.Visible(True)
+Gui.SS_Form1.lbl_txt1.Size(1800,195)
+Gui.SS_Form1.lbl_txt1.Zorder(1)
+Gui.SS_Form1.lbl_txt1.Position(105,135)
+Gui.SS_Form1.lbl_txt1.Enabled(True)
+Gui.SS_Form1.lbl_txt1.Alignment(0)
+Gui.SS_Form1.lbl_txt1.FontName("Arial")
+Gui.SS_Form1.lbl_txt1.FontSize(8)
+Gui.SS_Form1.lbl_txt1.Backcolor(-2147483633)
+Gui.SS_Form1.lbl_txt1.BackStyle(0)
+Gui.SS_Form1.lbl_txt1.Tooltip("")
+Gui.SS_Form1.lbl_txt1.ControlGroup(0)
+Gui.SS_Form1.lbl_txt1.DefaultValue("")
+Gui.SS_Form1.txt1.Create(textbox)
+Gui.SS_Form1.txt1.Text("")
+Gui.SS_Form1.txt1.Visible(True)
+Gui.SS_Form1.txt1.Size(9675,330)
+Gui.SS_Form1.txt1.Zorder(1)
+Gui.SS_Form1.txt1.Position(105,330)
+Gui.SS_Form1.txt1.Enabled(True)
+Gui.SS_Form1.txt1.Alignment(0)
+Gui.SS_Form1.txt1.FontName("Arial")
+Gui.SS_Form1.txt1.FontSize(8)
+Gui.SS_Form1.txt1.Backcolor(16777215)
+Gui.SS_Form1.txt1.BorderStyle(1)
+Gui.SS_Form1.txt1.MaxLength(100)
+Gui.SS_Form1.txt1.TabStop(True)
+Gui.SS_Form1.txt1.TabIndex(1)
+Gui.SS_Form1.txt1.Tooltip("")
+Gui.SS_Form1.txt1.ControlGroup(0)
+Gui.SS_Form1.txt1.DefaultValue("")
+Gui.SS_Form1.lbl_txt2.Create(label)
+Gui.SS_Form1.lbl_txt2.Caption("Comment 2")
+Gui.SS_Form1.lbl_txt2.Visible(True)
+Gui.SS_Form1.lbl_txt2.Size(1800,200)
+Gui.SS_Form1.lbl_txt2.Zorder(1)
+Gui.SS_Form1.lbl_txt2.Position(100,750)
+Gui.SS_Form1.lbl_txt2.Enabled(True)
+Gui.SS_Form1.lbl_txt2.Alignment(0)
+Gui.SS_Form1.lbl_txt2.FontName("Arial")
+Gui.SS_Form1.lbl_txt2.FontSize(8)
+Gui.SS_Form1.lbl_txt2.Backcolor(-2147483633)
+Gui.SS_Form1.lbl_txt2.BackStyle(0)
+Gui.SS_Form1.lbl_txt2.Tooltip("")
+Gui.SS_Form1.lbl_txt2.ControlGroup(0)
+Gui.SS_Form1.lbl_txt2.DefaultValue("")
+Gui.SS_Form1.txt2.Create(textbox)
+Gui.SS_Form1.txt2.Text("")
+Gui.SS_Form1.txt2.Visible(True)
+Gui.SS_Form1.txt2.Size(9675,330)
+Gui.SS_Form1.txt2.Zorder(1)
+Gui.SS_Form1.txt2.Position(105,945)
+Gui.SS_Form1.txt2.Enabled(True)
+Gui.SS_Form1.txt2.Alignment(0)
+Gui.SS_Form1.txt2.FontName("Arial")
+Gui.SS_Form1.txt2.FontSize(8)
+Gui.SS_Form1.txt2.Backcolor(16777215)
+Gui.SS_Form1.txt2.BorderStyle(1)
+Gui.SS_Form1.txt2.MaxLength(100)
+Gui.SS_Form1.txt2.TabStop(True)
+Gui.SS_Form1.txt2.TabIndex(3)
+Gui.SS_Form1.txt2.Tooltip("")
+Gui.SS_Form1.txt2.ControlGroup(0)
+Gui.SS_Form1.txt2.DefaultValue("")
+Gui.SS_Form1.lbl_txt3.Create(label)
+Gui.SS_Form1.lbl_txt3.Caption("Comment 3")
+Gui.SS_Form1.lbl_txt3.Visible(True)
+Gui.SS_Form1.lbl_txt3.Size(1800,200)
+Gui.SS_Form1.lbl_txt3.Zorder(1)
+Gui.SS_Form1.lbl_txt3.Position(100,1365)
+Gui.SS_Form1.lbl_txt3.Enabled(True)
+Gui.SS_Form1.lbl_txt3.Alignment(0)
+Gui.SS_Form1.lbl_txt3.FontName("Arial")
+Gui.SS_Form1.lbl_txt3.FontSize(8)
+Gui.SS_Form1.lbl_txt3.Backcolor(-2147483633)
+Gui.SS_Form1.lbl_txt3.BackStyle(0)
+Gui.SS_Form1.lbl_txt3.Tooltip("")
+Gui.SS_Form1.lbl_txt3.ControlGroup(0)
+Gui.SS_Form1.lbl_txt3.DefaultValue("")
+Gui.SS_Form1.txt3.Create(textbox)
+Gui.SS_Form1.txt3.Text("")
+Gui.SS_Form1.txt3.Visible(True)
+Gui.SS_Form1.txt3.Size(9675,330)
+Gui.SS_Form1.txt3.Zorder(1)
+Gui.SS_Form1.txt3.Position(105,1560)
+Gui.SS_Form1.txt3.Enabled(True)
+Gui.SS_Form1.txt3.Alignment(0)
+Gui.SS_Form1.txt3.FontName("Arial")
+Gui.SS_Form1.txt3.FontSize(8)
+Gui.SS_Form1.txt3.Backcolor(16777215)
+Gui.SS_Form1.txt3.BorderStyle(1)
+Gui.SS_Form1.txt3.MaxLength(100)
+Gui.SS_Form1.txt3.TabStop(True)
+Gui.SS_Form1.txt3.TabIndex(5)
+Gui.SS_Form1.txt3.Tooltip("")
+Gui.SS_Form1.txt3.ControlGroup(0)
+Gui.SS_Form1.txt3.DefaultValue("")
+Gui.SS_Form1.lbl_txt4.Create(label)
+Gui.SS_Form1.lbl_txt4.Caption("Comment 4")
+Gui.SS_Form1.lbl_txt4.Visible(True)
+Gui.SS_Form1.lbl_txt4.Size(1800,200)
+Gui.SS_Form1.lbl_txt4.Zorder(1)
+Gui.SS_Form1.lbl_txt4.Position(100,1980)
+Gui.SS_Form1.lbl_txt4.Enabled(True)
+Gui.SS_Form1.lbl_txt4.Alignment(0)
+Gui.SS_Form1.lbl_txt4.FontName("Arial")
+Gui.SS_Form1.lbl_txt4.FontSize(8)
+Gui.SS_Form1.lbl_txt4.Backcolor(-2147483633)
+Gui.SS_Form1.lbl_txt4.BackStyle(0)
+Gui.SS_Form1.lbl_txt4.Tooltip("")
+Gui.SS_Form1.lbl_txt4.ControlGroup(0)
+Gui.SS_Form1.lbl_txt4.DefaultValue("")
+Gui.SS_Form1.txt4.Create(textbox)
+Gui.SS_Form1.txt4.Text("")
+Gui.SS_Form1.txt4.Visible(True)
+Gui.SS_Form1.txt4.Size(9675,330)
+Gui.SS_Form1.txt4.Zorder(1)
+Gui.SS_Form1.txt4.Position(105,2175)
+Gui.SS_Form1.txt4.Enabled(True)
+Gui.SS_Form1.txt4.Alignment(0)
+Gui.SS_Form1.txt4.FontName("Arial")
+Gui.SS_Form1.txt4.FontSize(8)
+Gui.SS_Form1.txt4.Backcolor(16777215)
+Gui.SS_Form1.txt4.BorderStyle(1)
+Gui.SS_Form1.txt4.MaxLength(100)
+Gui.SS_Form1.txt4.TabStop(True)
+Gui.SS_Form1.txt4.TabIndex(7)
+Gui.SS_Form1.txt4.Tooltip("")
+Gui.SS_Form1.txt4.ControlGroup(0)
+Gui.SS_Form1.txt4.DefaultValue("")
+Gui.SS_Form1.lbl_txt5.Create(label)
+Gui.SS_Form1.lbl_txt5.Caption("Comment 5")
+Gui.SS_Form1.lbl_txt5.Visible(True)
+Gui.SS_Form1.lbl_txt5.Size(1800,200)
+Gui.SS_Form1.lbl_txt5.Zorder(1)
+Gui.SS_Form1.lbl_txt5.Position(100,2595)
+Gui.SS_Form1.lbl_txt5.Enabled(True)
+Gui.SS_Form1.lbl_txt5.Alignment(0)
+Gui.SS_Form1.lbl_txt5.FontName("Arial")
+Gui.SS_Form1.lbl_txt5.FontSize(8)
+Gui.SS_Form1.lbl_txt5.Backcolor(-2147483633)
+Gui.SS_Form1.lbl_txt5.BackStyle(0)
+Gui.SS_Form1.lbl_txt5.Tooltip("")
+Gui.SS_Form1.lbl_txt5.ControlGroup(0)
+Gui.SS_Form1.lbl_txt5.DefaultValue("")
+Gui.SS_Form1.txt5.Create(textbox)
+Gui.SS_Form1.txt5.Text("")
+Gui.SS_Form1.txt5.Visible(True)
+Gui.SS_Form1.txt5.Size(9675,330)
+Gui.SS_Form1.txt5.Zorder(1)
+Gui.SS_Form1.txt5.Position(105,2790)
+Gui.SS_Form1.txt5.Enabled(True)
+Gui.SS_Form1.txt5.Alignment(0)
+Gui.SS_Form1.txt5.FontName("Arial")
+Gui.SS_Form1.txt5.FontSize(8)
+Gui.SS_Form1.txt5.Backcolor(16777215)
+Gui.SS_Form1.txt5.BorderStyle(1)
+Gui.SS_Form1.txt5.MaxLength(100)
+Gui.SS_Form1.txt5.TabStop(True)
+Gui.SS_Form1.txt5.TabIndex(9)
+Gui.SS_Form1.txt5.Tooltip("")
+Gui.SS_Form1.txt5.ControlGroup(0)
+Gui.SS_Form1.txt5.DefaultValue("")
+Gui.SS_Form1.cmdSave.Create(button)
+Gui.SS_Form1.cmdSave.Caption("Save")
+Gui.SS_Form1.cmdSave.Visible(True)
+Gui.SS_Form1.cmdSave.Size(1125,345)
+Gui.SS_Form1.cmdSave.Zorder(0)
+Gui.SS_Form1.cmdSave.Position(105,3255)
+Gui.SS_Form1.cmdSave.Enabled(True)
+Gui.SS_Form1.cmdSave.FontName("Arial")
+Gui.SS_Form1.cmdSave.FontSize(7)
+Gui.SS_Form1.cmdSave.TabStop(True)
+Gui.SS_Form1.cmdSave.TabIndex(10)
+Gui.SS_Form1.cmdSave.Tooltip("")
+Gui.SS_Form1.cmdSave.ControlGroup(0)
+Gui.SS_Form1.cmdSave.DefaultValue("")
+Gui.SS_Form1.cmdSave.Event(click,cmdSave_Click)
+gui.SS_Form1.lbl_txt1.LabelStretch(True)
+gui.SS_Form1.lbl_txt2.LabelStretch(True)
+gui.SS_Form1.lbl_txt3.LabelStretch(True)
+gui.SS_Form1.lbl_txt4.LabelStretch(True)
+gui.SS_Form1.lbl_txt5.LabelStretch(True)
+
+
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Variable.Global.sFlag.Declare(String)
+Variable.Global.sOrdNum.Declare(String)
+Variable.Global.sLineNum.Declare(String)
+
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+F.Intrinsic.Control.SetErrorHandler("Main_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+F.ODBC.Connection!conX.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)
+
+'Populate Sections.
+'Refer to new comments section to review what this project entrails.
+F.Intrinsic.Control.If(V.Caller.Hook,=,"12010")
+	'Sales Order Lines Screen, change text of Script 1
+	V.Passed.000162.Set("Comments")
+Function.Intrinsic.Control.ElseIf(V.Caller.Hook,=,"10260")
+	'Quote lines Screen. Change Text of Script 1 to say Comments
+	V.Passed.000201.Set("Comments")
+Function.Intrinsic.Control.ElseIf(V.Caller.Hook,=,"12410")
+	'Sales Order Screen Lines script 1 button
+	V.Global.sFlag.Set("O")
+	'Get Order Number and Record Line Number
+	F.Intrinsic.String.LPad(V.Passed.000060,"0",7,V.Global.sOrdNum)
+	F.Intrinsic.String.LPad(V.Passed.000051,"0",3,V.Global.sLineNum)
+	F.Intrinsic.String.Build("{0}0",V.Global.sLineNum,V.Global.sLineNum)
+	'set caption reuse error
+	Function.Intrinsic.String.Build("Order: {1} {0}{0} Line: {2}",V.Ambient.Tab,V.Global.sOrdNum,V.Global.slinenum.left3,V.Local.sError)
+	Gui.SS_Form1..Caption(V.Local.sError)
+	Function.Intrinsic.Control.CallSub(Populate)
+	Gui.SS_Form1..Show
+Function.Intrinsic.Control.ElseIf(V.Caller.Hook,=,"12242")
+	'delete Line on the sales order screen line
+	V.Global.sFlag.Set("O")
+	F.Intrinsic.String.LPad(V.Passed.000060,"0",7,V.Global.sOrdNum)
+	F.Intrinsic.String.LPad(V.Passed.000051,"0",3,V.Global.sLineNum)
+	F.Intrinsic.String.Build("{0}0",V.Global.sLineNum,V.Global.sLineNum)
+	F.Intrinsic.Control.CallSub(Delete_line)
+F.Intrinsic.Control.ElseIf(V.Caller.Hook,=,"11882")
+	'delete order hook on order header hook
+	V.Global.sFlag.Set("O")
+	F.Intrinsic.String.LPad(V.Passed.000003,"0",7,V.Global.sOrdNum)
+	'delete the order information
+	F.Intrinsic.Control.CallSub(Delete_header)
+Function.Intrinsic.Control.ElseIf(V.Caller.Hook,=,"10670")
+	'Quote Lines Screen Script 1
+	V.Global.sFlag.Set("Q")
+	F.Intrinsic.String.LPad(V.Passed.000060,"0",7,V.Global.sOrdNum)
+	F.Intrinsic.String.LPad(V.Passed.000051,"0",3,V.Global.sLineNum)
+	'add a zero to it. Cause they store it weird.
+	F.Intrinsic.String.Build("{0}{1}",V.Global.sLineNum,V.Passed.000090,V.Global.sLineNum)
+	Function.Intrinsic.String.Build("Quote: {1} {0}{0} Line: {2}",V.Ambient.Tab,V.Global.sOrdNum,V.Global.slinenum,V.Local.sError)
+	Gui.SS_Form1..Caption(V.Local.sError)
+	Function.Intrinsic.Control.CallSub(Populate)
+	Gui.SS_Form1..Show
+F.Intrinsic.Control.ElseIf(V.Caller.Hook,=,"10542")
+	'Delete Quote Line Button
+	V.Global.sFlag.Set("Q")
+	F.Intrinsic.String.LPad(V.Passed.000060,"0",7,V.Global.sOrdNum)
+	F.Intrinsic.String.LPad(V.Passed.000051,"0",3,V.Global.sLineNum)
+	'add a zero to it. Cause they store it weird.A
+	F.Intrinsic.String.Build("{0}{1}",V.Global.sLineNum,V.Passed.000090,V.Global.sLineNum)
+	F.Intrinsic.Control.CallSub(Delete_line)
+F.Intrinsic.Control.ElseIf(V.Caller.Hook,=,"10932")
+	'Delete Quote Header Script
+	V.Global.sFlag.Set("Q")
+	F.Intrinsic.String.LPad(V.Passed.000003,"0",7,V.Global.sOrdNum)
+	F.Intrinsic.Control.CallSub(Delete_header)
+Function.Intrinsic.Control.EndIf
+
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Main_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3947_Cust_Comments_Q_S.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	Function.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.Main.End
+
+Program.Sub.cmdSave_Click.Start
+F.Intrinsic.Control.SetErrorHandler("cmdSave_Click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+v.Local.sSQL.Declare(String)
+v.Local.iC.Declare(String)
+'open recordset 5 times?
+f.Intrinsic.Control.For(v.Local.iC,1,5,1)
+	F.Intrinsic.String.Build("Select * From GCG_3947_SL_QL_Cmnts Where Flag_Type = '{0}' And Rec_ID ='{1}' And Rec_Line ='{2}' And Line_No ='{3}'",v.Global.sFlag,v.Global.sOrdNum,v.Global.sLineNum,v.Local.iC,v.Local.sSQL)
+	f.ODBC.Connection!conX.OpenLocalRecordsetRW("rst",V.Local.sSQL)
+	f.Intrinsic.Control.If(V.ODBC.conX!rst.EOF,=,True)
+		F.ODBC.conX!rst.AddNew
+		f.ODBC.conX!rst.Set!Rec_ID(V.Global.sOrdNum)
+		f.ODBC.conX!rst.Set!Rec_Line(V.Global.sLineNum)
+		f.ODBC.conX!rst.Set!Flag_Type(V.Global.sFlag)
+	Function.Intrinsic.Control.EndIf
+	'update line no and comment
+	f.ODBC.conX!rst.Set!Line_No(v.Local.iC)
+	f.ODBC.conX!rst.Set!Comment(V.Screen.SS_Form1!txt[v.local.iC].Text)
+	f.ODBC.conX!rst.Update
+	f.ODBC.conX!rst.Close
+f.Intrinsic.Control.Next(v.Local.iC)
+
+f.Intrinsic.Control.CallSub(ss_form1_unload)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmdSave_Click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3947_Cust_Comments_Q_S.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	f.Intrinsic.UI.Msgbox(V.Local.sError)
+	Function.Intrinsic.Control.CallSub(ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+Program.Sub.cmdSave_Click.End
+
+Program.Sub.SS_Form1_Unload.Start
+F.Intrinsic.Control.SetErrorHandler("SS_Form1_Unload_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+f.ODBC.Connection!conX.Close
+
+Function.Intrinsic.Control.End
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("SS_Form1_Unload_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3947_Cust_Comments_Q_S.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	Function.Intrinsic.Control.End
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.SS_Form1_Unload.End
+
+Program.Sub.Populate.Start
+F.Intrinsic.Control.SetErrorHandler("Populate_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+v.Local.sSQL.Declare(String)
+
+'Grab any records that may exist.
+Function.Intrinsic.String.Build("Select * From GCG_3947_SL_QL_Cmnts Where Flag_Type = '{0}' And Rec_ID = '{1}' And Rec_Line = '{2}' Order By Line_NO",V.Global.sFlag,V.Global.sOrdNum,V.Global.sLineNum,V.Local.sSQL)
+f.ODBC.Connection!conX.OpenLocalRecordsetRO("rst",V.Local.sSQL)
+f.Intrinsic.Control.DoUntil(V.ODBC.conx!rst.EOF,=,True)
+	'read our line number and determine which field it belongs in.
+	f.Intrinsic.Control.SelectCase(V.ODBC.conX!rst.FieldVal!Line_NO)
+		f.Intrinsic.Control.Case(1)
+			gui.SS_Form1.txt1.Text(V.ODBC.conX!rst.FieldValTrim!Comment)
+		f.Intrinsic.Control.Case(2)
+			gui.SS_Form1.txt2.Text(V.ODBC.conX!rst.FieldValTrim!Comment)
+		f.Intrinsic.Control.Case(3)
+			gui.SS_Form1.txt3.Text(V.ODBC.conX!rst.FieldValTrim!Comment)
+		f.Intrinsic.Control.Case(4)
+			gui.SS_Form1.txt4.Text(V.ODBC.conX!rst.FieldValTrim!Comment)
+		f.Intrinsic.Control.Case(5)
+			gui.SS_Form1.txt5.Text(V.ODBC.conX!rst.FieldValTrim!Comment)
+	f.Intrinsic.Control.EndSelect
+	f.ODBC.conx!rst.MoveNext
+Function.Intrinsic.Control.Loop
+
+f.ODBC.conX!rst.Close
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Populate_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3947_Cust_Comments_Q_S.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	Function.Intrinsic.Control.CallSub(ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.Populate.End
+
+Program.Sub.Delete_Line.Start
+F.Intrinsic.Control.SetErrorHandler("Delete_Line_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sSQL.Declare(String)
+
+Function.Intrinsic.String.Build("Delete From GCG_3947_SL_QL_Cmnts Where Flag_Type = '{0}' And Rec_ID = '{1}' And Rec_Line = '{2}'",V.Global.sflag,V.Global.sOrdNum,V.Global.sLineNum,V.Local.sSQL)
+F.ODBC.Connection!conX.Execute(V.Local.sSQL)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Delete_Line_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3947_Cust_Comments_Q_S.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	Function.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.Delete_Line.End
+
+Program.Sub.SS_Form1_Drop.Start
+
+Program.Sub.SS_Form1_Drop.End
+
+Program.Sub.Delete_Header.Start
+F.Intrinsic.Control.SetErrorHandler("Delete_Header_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+
+
+V.Local.sSQL.Declare(String)
+
+Function.Intrinsic.String.Build("Delete From GCG_3947_SL_QL_Cmnts Where Flag_Type = '{0}' And Rec_ID = '{1}'",V.Global.sflag,V.Global.sOrdNum,V.Local.sSQL)
+F.ODBC.Connection!conX.Execute(V.Local.sSQL)
+
+F.Intrinsic.Control.ExitSub
+
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Delete_Header_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3947_Cust_Comments_Q_S.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	Function.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.Delete_Header.End
+
+Program.Sub.Comments.Start
+${$0$}$$}$TRT$}$6/17/2015 12:02:56 PM
+${$3$}$0$}$$}$0$}$-1$}$$}$12:00:00 AM$}$Quote: 6677
+code: trt
+6/17/15
+
+This is a project attached to lines script button of both the order and quote screens. we going to write to the same table with a flaag of q or o based on where we at.
+
+
+Program.Sub.Comments.End
+Program.Sub.ScreenSS.Start
+SS_Form1{{CAPTION::Extra Comments
+SS_Form1.CTRL{{NAME::txt1\\TYPE::2\\CAPTION::Comment 1\\GROUP::-1\\BROWSER::0\\SIZE::3
+SS_Form1.CTRL{{NAME::txt2\\TYPE::2\\CAPTION::Comment 2\\GROUP::-1\\BROWSER::0\\SIZE::3
+SS_Form1.CTRL{{NAME::txt3\\TYPE::2\\CAPTION::Comment 3\\GROUP::-1\\BROWSER::0\\SIZE::3
+SS_Form1.CTRL{{NAME::txt4\\TYPE::2\\CAPTION::Comment 4\\GROUP::-1\\BROWSER::0\\SIZE::3
+SS_Form1.CTRL{{NAME::txt5\\TYPE::2\\CAPTION::Comment 5\\GROUP::-1\\BROWSER::0\\SIZE::3
+
+Program.Sub.ScreenSS.End
+
